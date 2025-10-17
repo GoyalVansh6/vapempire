@@ -13,7 +13,7 @@ const links = [
 
 export default function Navbar(){
     return(
-        <div className="flex items-center justify-between text-black h-[4rem] px-[2rem] sticky top-0">
+        <div className="flex items-center justify-between bg-gray-800 text-white h-[4rem] px-[2rem] sticky top-0">
             <div className="text-red-800 font-bold">
                 VAP EMPIRE
             </div>
