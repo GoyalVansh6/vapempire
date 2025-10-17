@@ -5,7 +5,7 @@ import {FaSearch, FaShoppingCart, FaUser} from "react-icons/fa"
 
 const links = [
     {name: "Home", path: "../"},
-    {name: "Shop"},
+    {name: "Shop", path: "../pages/shop"},
     {name: "Blog", path: "../pages/blog"},
     {name: "About", path: "../pages/about"},
     {name: "Contact", path: "../pages/contact"}
@@ -25,9 +25,9 @@ export default function Navbar(){
             )}
             </ul>
             <ul className="flex gap-[2rem]">
-                <li><FaSearch/></li>
-                <li><FaShoppingCart/></li>
-                <li><FaUser/></li>
+                <li><button><FaSearch/></button></li>
+                <li><button><FaShoppingCart/></button></li>
+                <li><button><FaUser/></button></li>
             </ul>
         </div>
     )
