@@ -59,13 +59,6 @@ export default function ProductsGrid() {
       price: 64.99,
       description: "Fast charge, bold flavors, pure satisfaction.",
     },
-    {
-      imageSrc: "/images/vape9.jpg",
-      altText: "Vape Model 9",
-      title: "VapEmpire Edge",
-      price: 59.99,
-      description: "Cutting-edge design for the modern vaper.",
-    },
   ];
 
   return (
@@ -73,7 +66,7 @@ export default function ProductsGrid() {
       <h2 className="text-4xl font-extrabold text-gray-900 mb-10 text-center">
         Our Top Picks
       </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
+      <div className="w-[75vw] flex gap-8 flex-wrap justify-center mx-auto">
         {products.map((product, index) => (
           <ProductCard
             key={index}

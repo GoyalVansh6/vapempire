@@ -3,7 +3,7 @@ import { FaInstagram, FaTwitter, FaFacebook, FaTiktok } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-gray-300 py-10 mt-16">
+    <footer className="bg-neutral-800 text-gray-300 py-10 mt-16">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-10">
         <div>
           <h2 className="text-2xl font-extrabold text-white mb-3">VapEmpire</h2>
@@ -43,7 +43,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="border-t border-gray-700 mt-10 pt-6 text-center text-sm text-gray-500">
+      <div className="border-t border-neutral-700 mt-10 pt-6 text-center text-sm text-gray-500">
         © {new Date().getFullYear()} VapEmpire. All rights reserved.
       </div>
     </footer>
