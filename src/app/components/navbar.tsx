@@ -4,9 +4,9 @@ import { useRouter } from "next/navigation";
 import {FaSearch, FaShoppingCart, FaUser} from "react-icons/fa"
 
 const links = [
-    {name: "Home",},
+    {name: "Home", path: "../"},
     {name: "Shop"},
-    {name: "Blog"},
+    {name: "Blog", path: "../pages/blog"},
     {name: "About", path: "../pages/about"},
     {name: "Contact", path: "../pages/contact"}
 ]
